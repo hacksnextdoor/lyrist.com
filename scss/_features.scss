@@ -16,7 +16,7 @@ section.features {
     }
     .device-container {
         margin-bottom: 100px;
-        @media(min-width: 992px) {
+        @media (min-width: 992px) {
             margin-bottom: 0;
         }
     }
@@ -28,6 +28,7 @@ section.features {
             font-size: 30px;
         }
         i {
+            text-shadow: 1px 1px 1px #007aff;
             font-size: 80px;
             display: block;
             margin-bottom: 15px;

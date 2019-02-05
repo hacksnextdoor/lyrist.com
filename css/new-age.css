@@ -273,6 +273,7 @@ section.features .feature-item h3 {
 }
 
 section.features .feature-item i {
+  text-shadow: 1px 1px 1px #007aff;
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
