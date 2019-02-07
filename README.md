@@ -1,4 +1,8 @@
-# [Lyrist](https://lyrist.app)
+# [Lyrist Website](https://lyrist.app)
+
+### Development
+
+Add any new assets directly to the vendor folder. DO NOT REMOVE `vendor/` for any reason. Changes to `css/` are not reloaded live. If `new-age.css` needs to be edited, edit the scss files.
 
 ### Basic Usage
 
@@ -11,7 +15,7 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 #### Gulp Tasks
 
 -   `gulp` the default task that builds everything
--   `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+-   `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made to `js/`, `scss/` or `index.html`, not `css/`
 -   `gulp sass` compiles SCSS files into CSS
 -   `gulp minify-css` minifies the compiled CSS file
 -   `gulp minify-js` minifies the themes JS file

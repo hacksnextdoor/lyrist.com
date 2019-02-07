@@ -1,5 +1,5 @@
 {
-    "title": "New Age",
+    "title": "lyrist.app",
     "name": "startbootstrap-new-age",
     "version": "4.0.0",
     "description": "A one page app landing page HTML theme for Bootstrap.",
@@ -11,19 +11,18 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/new-age",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-new-age/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://lyrist.app",
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "HacksNextDoor",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "PSD (https://peytspencer.com/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+        "url": "https://github.com/hacksnextdoor/hacksnextdoor.com"
+    },
+    "scripts": {
+        "now-build": "gulp"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
@@ -37,6 +36,7 @@
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
+        "gulp-htmlmin": "^5.0.1",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
         "gulp-uglify": "3.0.0"
